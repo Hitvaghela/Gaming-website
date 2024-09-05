@@ -6,7 +6,7 @@ The Gaming Website is a platform designed to provide gamers with an engaging and
 ## Screenshot
 Here is a screenshot of the gaming website:
 
-![Gaming Website Screenshot](Screenshot 2024-09-05 182740.png)
+![Gaming Website Screenshot](home_page.png)
 
 
 ## Features
