@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('2nd.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bg-video {
+    display: none;
+    /* Hide the video element */
+}
+
+.content {
+    color: white;
+    text-align: center;
+}
+
+
+.container {
+    height: 80vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #84d2ee;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+
+    display: none;
+}
+
+.tac {
+    margin-left: 39vi;
+    margin-top: -1vi;
+    font-size: 4vi;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(206, 203, 47)
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    align-items: center;
+    margin-left: 30vi;
+    margin-top: 1.5vi;
+    color: white;
+    font-size: 2vi;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav1 {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.nav2 {
+    background-image: url(download.jpeg);
+    width: 7vi;
+    height: 4vi;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.5vi;
+    margin-left: 1.5vi;
+    border-radius: 0.2vi;
+    padding-bottom: 1vi;
+    background-position: center 40%;
+}
+
+.nav3 {
+    margin-left: auto;
+    margin-top: 1vi;
+    margin-right: 2vi;
+    font-size: 1.7vi;
+
+}
+
+.nav3 a {
+    color: rgb(43, 97, 225);
+    text-decoration: none;
+
+}
+
+.nav1 a:hover {
+    color: rgb(209, 59, 209);
+}
+
+.user {
+    margin-top: 4vi;
+    margin-right: 2vi;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(63, 63, 63);
+    font-size: 1vi;
+    padding: 0.9vi;
+    border-radius: 0.4vi;
+    color: rgb(18, 17, 18);
+    transition: 1ms;
+}
+
+.user:hover {
+    background-color: rgb(31, 28, 28);
+
+}
+
+.text {
+    margin: 2vi;
+    font-size: 1.5vi;
+    color: rgb(237, 169, 11);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

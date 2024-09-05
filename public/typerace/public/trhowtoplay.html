@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typeracer-howtoplay</title>
+  <link rel="stylesheet" href="css\style.css">
+
+</head>
+<body>
+
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      
+      <li><a href="#">Profile</a></li>
+      <li><a href="trhowtoplay.html">howtoplay</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="typeracer.html">Menu</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">LOGO</a></li>
+      
+      <li class="hideOnMobile"><a href="#">Profile</a></li>
+      <li class="hideOnMobile"><a href="trhowtoplay.html">howtoplay</a></li>
+      <li class="hideOnMobile"><a href="about.html">About</a></li>
+      <li class="hideOnMobile"><a href="typeracer.html">Menu</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+  
+
+  <div class="con" style=" margin: 15%; background-color: rgb(245, 136, 255); border: rgb(0, 208, 255) solid 3px; border-radius: 10px; " >
+    <p style="padding: 2%;">
+       <strong> How to Play </strong>
+       <br>
+       <br>
+       1. Join or start a race by selecting an option on the race page.<br>
+2. Type the given text as accurately and quickly as possible.<br>
+3. Maintain focus on accuracy to avoid mistakes that can slow you down.<br>
+4. Finish strong to record your race time and aim to improve with practice.
+       
+    </p>
+    
+    
+</div>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+</body>
+</html>

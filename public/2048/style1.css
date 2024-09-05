@@ -1,0 +1,58 @@
+.nav1 {
+    display: flex;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav2 {
+    background-image: url(img1.png);
+    width: 7vi;
+    height: 3vi;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.5vi;
+    margin-left: 1.5vi;
+    border-radius: 0.5vi;
+    padding-bottom: 1vi;
+    background-position: center 40%;
+}
+
+body {
+    background-color: black;
+}
+
+.nav3 {
+    margin-left: auto;
+    margin-top: 1vi;
+    margin-right: 2vi;
+    font-size: 1.7vi;
+
+}
+
+.nav3 a {
+    color: rgb(50, 123, 207);
+    text-decoration: none;
+
+}
+
+.nav1 a:hover {
+    color: rgb(226, 48, 48);
+}
+
+.user {
+    margin-right: 1.5vi;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(63, 63, 63);
+    font-size: 1vi;
+    padding: 0.9vi;
+    border-radius: 0.4vi;
+    color: rgb(18, 17, 18);
+    transition: 1ms;
+}
+
+.user:hover {
+    background-color: rgb(31, 28, 28);
+
+}

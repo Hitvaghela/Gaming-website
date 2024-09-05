@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typeracer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/trsyles.css">
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      
+      <li><a href="#">Profile</a></li>
+      <li><a href="trhowtoplay.html">howtoplay</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="typeracer.html">Menu</a></li>
+    </ul>
+    <ul>
+      <li><a href="#" class="logo"></a></li>
+      
+      <li class="hideOnMobile"><a href="" class="nav3">Profile</a></li>
+      <li class="hideOnMobile"><a href="trhowtoplay.html">howtoplay</a></li>
+      <li class="hideOnMobile"><a href="about.html">About</a></li>
+      <li class="hideOnMobile"><a href="typeracer.html">Menu</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <p id="racestart">Start the race:</p>
+    <p id="passage"></p>
+    <!-- <div id="output"></div> -->
+    <input type="text" id="input" autofocus>
+    <button id="start">Start</button>
+    <button id="restart" style="display: none;" onclick=" location.href= 'typeracer.html';">Restart</button>
+    
+    <div id="path">
+        <div class="car" id="car"></div>
+    </div>
+
+    <p id="result" style=" background-color: aliceblue; width: 20%;"></p>
+</div>
+<script src="script/trscript.js"></script>
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+</body>
+</html>

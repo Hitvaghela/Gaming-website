@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Rock, Paper, Scissors</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+        href="https://fonts.cdnfonts.com/css/seven-segment"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.cdnfonts.com/css/proxima-nova-2"
+        rel="stylesheet"
+      />
+    </head>
+    <body>
+      <div class="nav1">
+        <div class="nav2">
+        </div>
+        <div class="text">Rock,Paper,Scissors</div>
+        <div class="nav3">
+            <a href="" class="user">Profile</a>
+        </div>
+    </div>
+      <header><h1>Rock, Paper, Scissors</h1></header>
+      <main>
+        <section class="scoreboard">
+          <div class="player-score">
+            <p class="player">PLAYER</p>
+            <p class="score-human">0</p>
+          </div>
+          <div class="computer-score">
+            <p class="computer">COMPUTER</p>
+            <p class="score-computer">0</p>
+          </div>
+        </section>
+        <section class="game-board-container">
+          <div class="game-board">
+            <div class="player-choose">
+              <p class="player">PLAYER</p>
+              <div class="circle">
+              <div class="image-container empty"></div>
+            </div>
+          </div>
+          <img src="img/vs.png" class="vs-image" />
+          <div class="computer-choose">
+            <p class="computer">COMPUTER</p>
+            <div class="circle">
+              <div class="image-container empty"></div>
+            </div>
+          </div>
+          </div>
+        </section>
+        <section class="game-play">
+          <p class="win-condition">The best score out of 3 is the winner.</p>
+          <div class="round-results">
+            <p class="result-human"></p>
+            <p class="result-computer"></p>
+            <p class="result-round"></p>
+            <p class="final-result"></p>
+            <button class="btn new-game-button">New Game</button>
+          </div>
+          <p class="choose-option">Choose an option:</p>
+          <div class="buttons-container">
+            <div class="button-container" data-value="ROCK">
+              <button class="btn game-button">
+                <img src="img/rock.png" alt="rock_button">
+                Rock
+              </button>
+            </div>
+            <div class="button-container" data-value="PAPER">
+              <button class="btn game-button">
+                <img src="img/paper.png" alt="paper_button" data-value="PAPER">
+                Paper
+              </button>
+            </div>
+            <div class="button-container" data-value="SCISSORS">
+              <button class="btn game-button">
+                <img src="img/scissors.png" alt="scissors_button" data-value="SCISSORS">
+                Scissors
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <script src="script.js"></script>
+    </body>
+  </html>

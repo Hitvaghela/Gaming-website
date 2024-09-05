@@ -1,0 +1,133 @@
+/* filename style.css */
+:root {
+    --primary-text-color: #165dc0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: var(--primary-text-color);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../gaming.avif');
+    /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.score {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+.username{
+    text-align: right;
+    margin-right: 4vi;
+    margin-top: 1vi;
+    font-size: 2vi;
+}
+.username .button{
+    background-color: transparent;
+    border: none;
+    color: aqua;
+    font-size: 1.5vi;
+}
+.score-title {
+    width: 50%;
+}
+
+.score-value {
+    width: 50%;
+}
+
+.result {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid {
+    /* border-radius: 15; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 35vi;
+    height: 35vi;
+    background-color: rgb(14, 10, 10);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.753);
+    transition: width 0.5s, height 0.5s; 
+}
+
+.grid-item {
+    border: 1.5px solid var(--primary-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.rules {
+    border: 2px solid white;
+    padding: 20px;
+}
+.button1{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2vi;
+    font-family: 'sans-serif';
+    cursor:pointer;
+}
+.rules>h1 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.rules-para {
+    padding: 20px 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .grid {
+        width: 45vi;
+        height: 45vi;
+        transition: width 0.5s, height 0.5s; 
+    }
+}
+
+@media screen and (max-width:600px) {
+    .grid {
+        width: 60vi;
+        height: 60vi;
+        transition: width 0.5s, height 0.5s; 
+    }
+}

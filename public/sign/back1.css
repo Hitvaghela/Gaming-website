@@ -1,0 +1,194 @@
+body {
+    background-image: url('perfect_dark_zero_xbox_game.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25vi 0vi;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.login{
+    font-size: 2vi;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    
+}
+.custom-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* max-width: 20%; Set your desired max-width here */
+    margin: auto;
+    /* Center the container horizontally */
+    padding: 20px;
+    /* Add padding to the container */
+    box-sizing: border-box;
+    /* Include padding and border in container's total width */
+    border-radius: 10px;
+    /* Add border radius */
+    margin-top: 20vi;
+    height: 30vi;
+    width: 33vi;
+    /* margin-left: 55vi; */
+    margin-left: 10%;
+    position: relative;
+}
+
+.form-control {
+    width: calc(100% - 10px);
+    /* Adjust width to include padding */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Set background color of input fields */
+    color: black;
+    /* Set text color of input fields */
+    border: none;
+    /* Remove the border */
+    margin-bottom: 10px;
+    font-size: 1.2vi;
+    /* Add margin bottom for spacing */
+}
+
+.form-control::placeholder {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.input-line {
+    border-top: 1px solid black;
+    margin-top: 10px;
+}
+
+.form-control:focus {
+    outline: none;
+    /* Remove the outline */
+    box-shadow: none;
+    /* Remove any box-shadow */
+}
+
+.btn-custom-width {
+    width: 100%;
+    /* Set desired width */
+    font-size: 1.5vi;
+    margin-top: 1.2vi;
+    margin: auto;
+    background-color: rgb(72, 70, 70);
+    color: white;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.register-link {
+    color: black;
+}
+
+.text {
+    font-size: 1vi;
+    margin-top: 1vi;
+}
+.img2{
+    display: flex;
+    
+}
+@media screen and (max-width: 1100px) {
+    .custom-container {
+        height: 35vi;
+        transition: 3s;
+    }
+
+
+}
+@media screen and (max-width: 900px) {
+    body {
+        background-image: url('../perfect_dark_zero_xbox_game.jpg');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-color: black;
+        margin: 20vi;
+        padding: 0;
+        
+    }
+    .custom-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        /* max-width: 20%; Set your desired max-width here */
+        margin: auto;
+        /* Center the container horizontally */
+        padding: 20px;
+        /* Add padding to the container */
+        box-sizing: border-box;
+        /* Include padding and border in container's total width */
+        border-radius: 10px;
+        /* Add border radius */
+        margin-top: 20vi;
+        height: 55vi;
+        width: 100%;
+        position: relative;
+    }
+    .login{
+        font-size: 4vi;
+         margin-left: 40%;
+        margin-bottom: 5%;
+    }
+    .form-control {
+        width: calc(100% - 10px);
+        /* Adjust width to include padding */
+        background-color: rgba(255, 255, 255, 0.9);
+        /* Set background color of input fields */
+        color: black;
+        /* Set text color of input fields */
+        border: none;
+        /* Remove the border */
+        margin-bottom: 10px;
+        font-size: 80%;
+    }
+    .text {
+        font-size: 3vi;
+        margin-top: 1vi;
+    }
+    .btn-custom-width {
+        width: 100%;
+        /* Set desired width */
+        font-size: 3vi;
+        margin-top: 1.2vi;
+        margin: auto;
+        background-color: rgb(72, 70, 70);
+        color: white;
+        transition: 0.5s;
+    }
+    .btn:hover {
+        background-color: black;
+        color: white;
+    }
+    .btn-custom-width {
+        width: 100%;
+        /* Set desired width */
+        /* font-size: 1.5vi; */
+        margin-top: 1.2vi;
+        margin: auto;
+        background-color: rgb(72, 70, 70);
+        color: white;
+        transition: 0.5s;
+    }
+    .img1{
+        background-image: url('download-removebg-preview.png');
+        height: 3vi;
+        width: 3vi;
+        background-size: cover;
+        /* margin: auto; */
+        margin-left: 1.3vi;
+        margin-top: 1.6vi;
+    }
+    .img2{
+        display: flex;
+        
+    }
+    .inner{
+        display: flex;
+        /* margin-top: 0.1vi; */
+        
+    }
+    .inner1{
+        font-size: 4vi;
+    }
+}

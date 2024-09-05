@@ -1,0 +1,258 @@
+*,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-color: #000;
+    max-height: 100vh;
+  }
+
+  header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    color: #f3ffff;
+    text-align: center;
+  }
+
+  .scoreboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: #014689;
+    height: 150px;
+    width: 400px;
+    margin: 0 auto;
+    border: 4px solid #f3ffff;
+    border-radius: 20px;
+  }
+ 
+  .player-score,
+  .computer-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: inherit;
+    width: 100px;
+  }
+
+  .player,
+  .computer {
+    color: #f3ffff;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline #f3ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .score-computer,
+  .score-human {
+    background-color: #000;
+    border: 4px solid #f3ffff;
+    border-radius: 10px;
+    color: #ea4225;
+    font-family: 'Seven Segment', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .game-board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 385px;
+    max-width: 100vw;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .game-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .player-choose p,
+  .computer-choose p {
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline #ffd700;
+  }
+
+  .circle {
+    background-color: #87ceeb;
+    border: 3px solid #3b83bd;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  .image-container {
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .vs-image {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+  }
+
+  .game-play p {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .win-condition {
+    color: #f5f5dc;
+    font-size: 18px;
+  }
+
+  .round-results {
+    color: #f3ffff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .choose-option {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    margin-top: 10px;
+  } 
+
+  .button-container {
+    background-color: #014689;
+    width: 150px;
+    height: 70px;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn {
+    background: none;
+    border: 0;
+    color: #f3ffff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+    line-height: normal;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10px;
+  }
+
+  .btn img {
+    width: 50px;
+    height: 50px;
+    background-color: transparent; 
+  }
+
+  .image-container.empty {
+    background: none;
+  }
+
+  .new-game-button {
+    background-color: #014689;
+    border-radius: 5px;
+    width: 130px;
+    cursor: pointer;
+    display: none;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  .nav1 {
+    display: flex;
+    font-family:sans-serif;
+  }
+  
+  .nav2 {
+    background-image: url(rock.png);
+    width: 10vi;
+    height: 5vi;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.5vi;
+    margin-left: 1.5vi;
+    border-radius: 0.2vi;
+    padding-bottom: 1vi;
+    background-position: center 40%;
+  }
+  
+  .nav3 {
+    margin-left: auto; 
+    margin-top: 1vi;
+    margin-right: 2vi;
+    font-size: 1.7vi;
+    
+  }
+  
+  .nav3 a {
+    color:white;
+    text-decoration: none; 
+    
+  }
+  .nav1     a:hover{
+    color: white;
+  }
+  .user{
+    margin-right: 1.5vi;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(63, 63, 63);
+    font-size: 1vi;
+    padding: 0.9vi;
+    border-radius: 0.4vi;
+    color: rgb(18, 17, 18);
+    transition: 1ms;
+  }
+  .user:hover{
+    background-color: rgb(31, 28, 28);
+    
+  }
+  .text
+  {
+    margin: 2vi;
+    font-size: 1.5vi;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
