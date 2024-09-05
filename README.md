@@ -14,7 +14,7 @@ Here is a screenshot of the gaming website:
 - **User Profiles**: Create and manage user profiles with game statistics and achievements.
 - **Leaderboards**: Track and display players score in various games.
 - **Interactive Login and Sign-In Page**: Users can securely log in or sign up with an interactive and user-friendly interface.
-- 
+  
 ## Technologies Used
 - **Frontend**:
   - HTML, CSS, JavaScript
