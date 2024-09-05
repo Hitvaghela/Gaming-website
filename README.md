@@ -31,3 +31,13 @@ To set up the project locally, follow these steps:
    git clone https://github.com/your-username/gaming-website.git
 
 
+
+Contributing
+Contributions are welcome! To contribute to the project:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Commit your changes and push to your branch.
+Open a pull request describing your changes.
+
+
