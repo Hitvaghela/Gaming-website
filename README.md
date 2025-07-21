@@ -1,7 +1,7 @@
 # GameGrid – Online Gaming Platform
 
 ## Description
-The PlayHub is a platform designed to provide gamers with an engaging and interactive experience. It features a variety of games, leaderboards, user profiles, and more. This website aims to offer a seamless and enjoyable gaming experience for users of all skill levels.
+The GameGrid is a platform designed to provide gamers with an engaging and interactive experience. It features a variety of games, leaderboards, user profiles, and more. This website aims to offer a seamless and enjoyable gaming experience for users of all skill levels.
 
 ## Screenshot
 Here is a screenshot of the gaming website:
