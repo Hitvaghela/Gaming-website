@@ -1,7 +1,7 @@
-# Gaming Website
+# PlayHub – Online Gaming Platform
 
 ## Description
-The Gaming Website is a platform designed to provide gamers with an engaging and interactive experience. It features a variety of games, leaderboards, user profiles, and more. This website aims to offer a seamless and enjoyable gaming experience for users of all skill levels.
+The PlayHub is a platform designed to provide gamers with an engaging and interactive experience. It features a variety of games, leaderboards, user profiles, and more. This website aims to offer a seamless and enjoyable gaming experience for users of all skill levels.
 
 ## Screenshot
 Here is a screenshot of the gaming website:
